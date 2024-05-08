@@ -3,8 +3,8 @@ import torch
 import torch.nn as nn
 import math
 import torch.nn.functional as F
-from SNN_layers.spike_neuron import *
-from SNN_layers.spike_dense import *
+from models.SNN_layers.spike_neuron import *
+from models.SNN_layers.spike_dense import *
 
 
 #Vanilla SRNN layer

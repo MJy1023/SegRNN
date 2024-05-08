@@ -4,7 +4,7 @@ import torch.nn as nn
 import math
 from torch.autograd import Variable
 import torch.nn.functional as F
-from SNN_layers.spike_neuron import *#
+from models.SNN_layers.spike_neuron import *#
 
 
 ## readout layer

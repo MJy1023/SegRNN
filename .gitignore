@@ -7,3 +7,4 @@ test_results/
 results/
 logs/
 .DS_Store
+pid.log

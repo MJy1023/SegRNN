@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 from layers.RevIN import RevIN
-from SNN_layers.spike_neuron import *
-from SNN_layers.spike_dense import *
-from SNN_layers.spike_rnn import *
+from models.SNN_layers.spike_neuron import *
+from models.SNN_layers.spike_dense import *
+from models.SNN_layers.spike_rnn import *
 
 class Model(nn.Module):
     """
